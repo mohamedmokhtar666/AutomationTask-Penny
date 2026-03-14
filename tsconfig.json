@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["src/pages/*"]
+    }
+  },
+  "include": ["tests/**/*.ts", "src/**/*.ts", "utils/**/*.ts", "src/utils/fakerData.mts"]
+}

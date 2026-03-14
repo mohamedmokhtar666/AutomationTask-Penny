@@ -1,0 +1,15 @@
+{
+  "cucumber.features": [
+    "tests/features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "src/steps/**/*.ts"
+  ],
+  "cucumberautocomplete.steps": [
+    "src/steps/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "tests/features/**/*.feature",
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
