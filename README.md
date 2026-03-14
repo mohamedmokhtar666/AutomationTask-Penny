@@ -21,7 +21,13 @@ Logout functionality
 # Tools & Technologies Used:
 
 Playwright	End-to-end browser automation
+
 TypeScript	Programming language used for test development
+
 Node.js	Runtime environment
+
 Faker.js	Generating dynamic test data
-Git
+
+Git	Version control
+
+GitHub	Source code repository   
