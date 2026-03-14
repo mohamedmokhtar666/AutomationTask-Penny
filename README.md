@@ -31,3 +31,5 @@ Faker.js	Generating dynamic test data
 Git	Version control
 
 GitHub	Source code repository   
+
+Html report
