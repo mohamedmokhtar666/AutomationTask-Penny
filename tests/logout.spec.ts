@@ -7,8 +7,8 @@ import { test } from './baseTest';
 let home: HomePage;
 let login: LoginPage;
 
-test.describe('Login Tests', () => {
-    test('Successful login for existing user', async ({ page }) => {
+test.describe('Logout Tests', () => {
+    test('Successful logout for logged in user', async ({ page }) => {
         home = new HomePage(page);
         login = new LoginPage(page);
         const user = staticUsers.validUser;
